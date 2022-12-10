@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Martian Mono', monospace;
+    background:#dbd9d9;
+}
+.container{
+    /* border: 2px solid forestgreen; */
+    position: relative;
+    margin: 30px;
+    margin-left: 100px;
+}
+h1{
+    margin-bottom: 9px;
+}
+.add{
+    height: 30px;
+    width: 150px;
+    font-family: 'Martian Mono', monospace;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.add:hover{
+    background: orangered;
+    border: none;
+    color: white;
+}
+.question-answer{
+    border: 1px solid orangered;
+    display: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 40rem;;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+textarea{
+    font-size: 23px;
+}
+.question{
+    margin-bottom: 10px;
+    border-color: orangered;
+    border-radius: 4px;
+}
+.answer{
+    border-color: orangered;
+    border-radius: 4px;
+}
+.save{
+    width: 160px;
+    margin-top: 10px;
+    height: 31px;
+    cursor: pointer;
+    border: 2px solid rgb(19, 54, 19);
+    border-radius: 3px;
+    font-family: 'Martian Mono', monospace;
+    margin-bottom: 10px;
+
+}
+.save:hover{
+    background:rgb(19, 54, 19) ;
+    border: none;
+    color: white;
+}
+
+.qlists{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    gap: 10px;
+
+}
+#div{
+    
+    border: 1px solid rgb(127, 125, 129);
+    border-radius: 4px;
+    background: white;
+}
+#qp{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#ap{
+    font-size: 20px;
+
+font-family:'Poppins', sans-serif;;
+}
+.showhide{
+    color: blue;
+    text-decoration:underline;
+    font-size: 12px;
+}
+#bttn-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+#edit{
+    height: 34px;
+    width: 4rem;
+    border: 2px solid rgb(19, 54, 19);
+    border-radius: 2.6px;
+    color: rgb(19, 54, 19);
+
+}
+#edit:hover{
+    background: rgb(19,54,19);
+    border:none;
+    color: white;
+    cursor: pointer;
+
+}
+#delet{
+    border: 2px solid orangered;
+    border-radius: 2.6px;
+    height: 34px;
+    width: 4rem;
+    cursor: pointer;
+    color: orangered;
+}
+#delet:hover{
+background: orangered;
+border: none;
+color: black;
+}
+#clear{
+    position: absolute;
+    margin-left: 36.7rem;
+    margin-top: -28px;
+    font-size: 31px;
+    font-weight: 900;
+    color: orangered;
+    /* background: orangered; */
+    /* width: 37px; */
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flash Cards</h1>
+        <button class="add">Add Question</button>
+        <div class="question-answer">
+            <h3>Question</h3><i id="clear" class="fa-solid fa-square-xmark"></i>
+
+            <textarea onfocus="if(this.value!='') this.value=''"  class="question" name="" id="" cols="45" rows="10"></textarea> <br>
+            <h3>Answers</h3>
+            <textarea onfocus="if(this.value!='') this.value=''"  class="answer" name="" id="" cols="45" rows="10"></textarea> <br>
+            <button class="save">Save</button>
+        </div>
+        <div class="qlists">
+            
+        </div>
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
